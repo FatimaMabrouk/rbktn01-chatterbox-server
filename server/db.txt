@@ -1,5 +1,1 @@
-{
-    "username":"Adam",
-    "text": "My name is Adam",
-    "room": "Lobby"
-},
+{"username":"hahaha","text":"hello :)","roomname":"lobby","objectId":13},{"username":"hahaha","text":"hello :)","roomname":"lobby","objectId":13},{"username":"hahaha","text":"aaaaaaa","roomname":"lobby","objectId":13},{"username":"hahaha","text":"hello","roomname":"lobby"},{"username":"hahaha","text":"aaaaaaa","roomname":"lobby"},{"username":"hahaha","text":"hmm","roomname":"lobby"},{"username":"hahaha","text":"Hello","roomname":"lobby","objectId":"8139Hello"},{"username":"hahaha","text":"aaaaaaaaaaaaaaaaa","roomname":"lobby","objectId":"5433aaaaaaaaaaaaaaaaa"},{"username":"hahaha","text":"hmm","roomname":"lobby","objectId":"4746hmm"},{"username":"hahaha","text":"<script>alert(\"ahla men hena\")</script>","roomname":"lobby","objectId":"9483<script>alert(\"ahla men hena\")</script>"},

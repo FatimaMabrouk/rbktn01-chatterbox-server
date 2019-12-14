@@ -8,5 +8,8 @@ var fs = require('fs');
         return JSON.parse(data);   
     },
     module.exports.writeData = function(msg) {
-
+        var value =  JSON.stringify(msg) +','; 
+        console.log(typeof value, value);
+        fs.appendFileSync('./server/db.txt', value)
     }
+ 

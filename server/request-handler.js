@@ -92,9 +92,9 @@ module.exports.requestHandler = function(request, response) {
       }).on('end', () => { 
 
         var newMessage = JSON.parse(body)
-        
-        newMessage.objectId = result.length;
-        result.unshift(newMessage)
+        var {hasher} = require('./hasher')
+        newMessage.objectId = hasher(newMessage.text);
+        writeData(newMessage);
         statusCode = 201;
         response.writeHead(statusCode, headers);
         
